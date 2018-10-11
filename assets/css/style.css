@@ -1,0 +1,223 @@
+html, body {
+	margin: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Varela Round', sans-serif;
+}
+
+p, input, button {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+
+#navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+/*	position: fixed;
+	width: 100%;
+	top: 0;
+	overflow: hidden;*/
+
+	background-color: #D4E8F7;
+}
+
+#navbar h2 {
+	margin-left: 92px;
+	margin-top: 20px;
+	font-size: 30px;
+	cursor: pointer;
+}
+
+.nav-buttons {
+	margin-right: 76px;
+}
+
+.nav-button {
+    background-color: #2E3137;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+
+    margin: 20px 16px 20px 0px;
+
+    box-shadow: 0px 0px 7px black;
+    transition: 0.4s;
+}
+
+.nav-button:hover {
+	background-color: white;
+	color: black;
+	box-shadow: 0px 0px 15px black;
+}
+
+#navbar input {
+	margin: auto 20px auto auto;
+
+	background-image: url("./assets/img/search.png");
+	background-color: #93c5eb;
+    background-repeat: no-repeat;
+    background-position: right;
+
+    width: 40px;
+    height: 20px;
+    transition: width 0.4s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+#navbar input:focus {
+    width: 15%;
+}
+
+/*https://codepen.io/912lab/pen/LsplC*/
+/*.search-icon {
+	width: 30px;
+	height: auto;
+    vertical-align: middle;
+    margin-left: 16px;
+    margin-right: 72px;
+    cursor: pointer;
+}*/
+
+/* HOME PAGE - BODY */
+
+#left-home {
+	float: left;
+	width: 50%;
+}
+
+#left-home h1 {
+	font-family: 'Varela Round', sans-serif;
+	/*font-weight: 500;*/
+	font-size: 32px;
+
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.music-icon {
+	display: block;
+	width: 40px;
+	height: 40px;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 35%;
+	transform: translateY(-50%);
+}
+
+#left-home input[type=text] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+    width: 400px;
+    height: 20px;
+    transition: width 0.4s ease-in-out;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#left-home input[type=text]:focus {
+    width: 70%;
+}
+
+#right-home {
+	display: flex;
+	float: left;
+	width: 50%;
+}
+
+/*@keyframes fade {
+  0%	{ opacity: 1; }
+  10%	{ opacity: 1; }
+  20%	{ opacity: 1; }
+  30%	{ opacity: 1; }
+  40%	{ opacity: 1; }
+  50%	{ opacity: 0; }
+  60%	{ opacity: 0; }
+  70%	{ opacity: 0; }
+  80%	{ opacity: 0; }
+  90%	{ opacity: 0; }
+  100% { opacity: 0; }
+}*/
+
+#right-home img {
+	position: absolute;
+	float: left;
+	width: 50%;
+
+	/*opacity: 0;
+    animation-name: fade;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-delay: 2s;*/
+}
+
+/*.cover1 { animation-delay: 0s; }
+.cover2 { animation-delay: 2s; }
+.cover3 { animation-delay: 4s; }
+.cover4 { animation-delay: 6s; }
+.cover5 { animation-delay: 8s; }*/
+
+
+/* LYRICS */
+
+.header {
+	margin-top: 60px;
+	text-align: center;
+}
+
+.header h1, h3 {
+	line-height: 15px;
+}
+
+.lyrics {
+	margin: 0 auto;
+	text-align: center;
+	width: 40%;
+	overflow-wrap: normal;
+}
+ 
+/* SEARCH */
+
+.search-buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.search-button {
+    border: none;
+    padding: 8px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    margin: 20px 16px 20px 0px;
+
+    box-shadow: 0px 0px 7px black;
+    transition: 0.4s;
+}
+
+.album {
+	background-color: white;
+	color: black;
+}
+
+.song {
+	background-color: #5D98C6;
+	color: white;
+}
