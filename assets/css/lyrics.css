@@ -37,6 +37,7 @@
 	position: fixed;
 	margin: -80px 0px 0px 80px;
 	opacity: 0.8;
+	transition: 0.4s;
 }
 
 .verticle-line2 {
@@ -47,6 +48,7 @@
 	position: fixed;
 	margin: -30px 0px 0px 105px;
 	opacity: 0.8;
+	transition: 0.4s;
 }
 
 .verticle-line3 {
@@ -57,6 +59,7 @@
 	position: fixed;
 	margin: 20px 0px 0px 130px;
 	opacity: 0.8;
+	transition: 0.4s;
 }
 
 .verticle-line1:hover {
