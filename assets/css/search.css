@@ -1,0 +1,68 @@
+.search-buttons {
+	width: 100%;
+	text-align: center;
+}
+
+.search-button {
+    border: none;
+    padding: 8px 27px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 15px;
+    cursor: pointer;
+
+    margin: 20px 20px 20px 0px;
+
+    box-shadow: 0px 0px 7px black;
+    transition: 0.4s;
+}
+
+.album {
+	background-color: white;
+	color: black;
+}
+
+.album:hover {
+    background-color: #5D98C6;
+    color: white;
+    box-shadow: 0px 0px 15px black;
+}
+
+.album:hover + .song {
+    background-color: white;
+    color: black;
+}
+
+.song {
+	background-color: #5D98C6;
+	color: white;
+}
+
+.song:hover {
+    box-shadow: 0px 0px 15px black;
+}
+
+.search-row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.search-result {
+    cursor: pointer;
+    width: 30%;
+}
+
+.search-result .caption {
+    position: relative;
+    left: 240px;
+    bottom: 230px;
+}
+
+.row2 {
+    margin-top: 250px;
+}
