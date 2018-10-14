@@ -17,6 +17,11 @@ p, input, button {
 	flex-direction: row;
 	justify-content: space-between;
 
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 6;
+
 	background-color: #D4E8F7;
 }
 
@@ -148,6 +153,7 @@ p, input, button {
 	display: flex;
 	float: left;
 	width: 50%;
+	margin-top: 82px;
 }
 
 #right-home img {
