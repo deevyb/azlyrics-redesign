@@ -66,6 +66,19 @@
     width: 30%;
 }
 
+.search-result a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.search-result img {
+    transition: 0.4s;
+}
+
+.search-result img:hover {
+    filter: drop-shadow(0px 0px 8px);
+}
+
 .search-result .caption {
     position: relative;
     left: 240px;
