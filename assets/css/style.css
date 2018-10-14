@@ -59,19 +59,27 @@ p, input, button {
 	box-shadow: 0px 0px 15px black;
 }
 
-#navbar input {
-	margin: auto 20px auto auto;
+#button-holder img {
+    margin:4px;
+	width:25px;
+	transform: translate(-150%, 100%);
+	pointer-events: none;
+}
 
-	background-image: url("./assets/img/search.png");
-	background-color: #93c5eb;
+#navbar input {
+	margin: auto -5px auto auto;
+	background-color: #EDF4F8;
     background-repeat: no-repeat;
     background-position: right;
-
-    width: 40px;
-    height: 20px;
+	border-radius: 25px;
+    width: 76px;
+    height: 40px;
     transition: width 0.4s ease-in-out;
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
+	font-size: 16px;
+	padding-right: 45px;
+
+	box-shadow: none !important;
+    border: 1px solid #2E3137 !important;
 }
 
 #navbar input:focus {
