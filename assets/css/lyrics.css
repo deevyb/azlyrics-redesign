@@ -1,12 +1,11 @@
 .header {
 	margin-top: 75px;
-
+	margin-bottom: 0px;
 	text-align: center;
 	line-height: 15px;
 }
 
 .lyrics {
-	margin: 0 auto;
 	text-align: center;
 	font-size: 25px;
 	width: 100%;
@@ -14,5 +13,4 @@
 	list-style-position: outside;
 	letter-spacing: 1px;
 	line-height: 50px;
-	/*margin: 0 200 0 200;*/
 }
