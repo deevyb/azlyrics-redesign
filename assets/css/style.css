@@ -32,6 +32,15 @@ p, input, button {
 	cursor: pointer;
 }
 
+#navbar a {
+	color: inherit;
+	text-decoration: inherit;
+}
+
+#navbar a:hover {
+	text-decoration: underline;
+}
+
 .nav-buttons {
 	margin-right: 76px;
 }
@@ -160,7 +169,7 @@ p, input, button {
 	position: absolute;
 	float: left;
 	width: 50%;
-	height: 89%;
+	height: 89.1%;
 }
 
 @keyframes fadeInOut {
